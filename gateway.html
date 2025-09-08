@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Admin - Padukuhan Ngelo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-100 flex items-center justify-center min-h-screen">
+    <div class="w-full max-w-sm p-8 space-y-6 bg-white rounded-xl shadow-lg">
+        <div>
+            <h1 class="text-2xl font-bold text-center text-slate-800">Login Admin</h1>
+            <p class="text-sm text-center text-slate-500 mt-2">Akses dashboard sistem informasi padukuhan.</p>
+        </div>
+        <form class="space-y-4" onsubmit="handleLogin(event)">
+            <div>
+                <label for="username" class="text-sm font-medium text-slate-700">Username</label>
+                <input type="text" id="username" name="username" value="admin" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                    focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500" required>
+            </div>
+            <div>
+                <label for="password" class="text-sm font-medium text-slate-700">Password</label>
+                <input type="password" id="password" name="password" value="password123" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                    focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500" required>
+            </div>
+            <div>
+                <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                    Masuk
+                </button>
+            </div>
+        </form>
+        <div class="text-center">
+            <a href="index.html" class="text-sm text-indigo-600 hover:text-indigo-500">
+                &larr; Kembali ke Halaman Utama
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function handleLogin(event) {
+            event.preventDefault(); // Mencegah form dari submit default
+            // Di aplikasi nyata, di sini akan ada validasi
+            // Untuk prototipe, kita langsung arahkan ke dashboard
+            window.location.href = 'dashboard.html';
+        }
+    </script>
+</body>
+</html>

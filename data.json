@@ -1,0 +1,103 @@
+{
+  "padukuhan": {
+    "nama": "Ngelo",
+    "rw": "04",
+    "desa": "Petir",
+    "kecamatan": "Rongkop",
+    "kabupaten": "Gunung Kidul"
+  },
+  "populasi": {
+    "total_penduduk": 438,
+    "tren_penduduk": "+5 dari bulan lalu",
+    "total_kk": 125,
+    "info_rt": "3 RT",
+    "balita": 15,
+    "lansia": 80,
+    "info_posyandu": "Posyandu: Minggu ke-2"
+  },
+  "bantuan": {
+    "total_penerima": 35,
+    "detail": "BLT: 20 · PKH: 15"
+  },
+  "rts": [
+    "RT 06",
+    "RT 07",
+    "RT 08"
+  ],
+  "kehadiran_perangkat": [
+    {
+      "nama": "Bapak Dukuh",
+      "jabatan": "Dukuh",
+      "status": "Hadir"
+    },
+    {
+      "nama": "Bapak Agus",
+      "jabatan": "Ketua RT 06",
+      "status": "Hadir"
+    },
+    {
+      "nama": "Bapak Budi",
+      "jabatan": "Ketua RT 07",
+      "status": "Rapat di Balai Desa"
+    },
+    {
+      "nama": "Ibu Siti",
+      "jabatan": "Ketua RT 08",
+      "status": "Hadir"
+    }
+  ],
+  "administrasi_surat": [
+    {
+      "tanggal": "2024-09-02",
+      "jenis": "Surat Masuk",
+      "nomor": "145/IX/2024",
+      "perihal": "Undangan Rapat Koordinasi",
+      "status": "Diarsipkan"
+    },
+    {
+      "tanggal": "2024-09-04",
+      "jenis": "Surat Keluar",
+      "nomor": "02/PNGL/IX/2024",
+      "perihal": "Surat Keterangan Domisili (A/N Budi T)",
+      "status": "Selesai"
+    },
+    {
+      "tanggal": "2024-09-05",
+      "jenis": "Surat Masuk",
+      "nomor": "E-98/KEC/2024",
+      "perihal": "Pemberitahuan Program Stunting",
+      "status": "Didisposisikan"
+    }
+  ],
+  "inventaris": [
+    {
+      "fasilitas": "Balai Padukuhan",
+      "status": "Baik"
+    },
+    {
+      "fasilitas": "Pos Ronda",
+      "status": "Rusak ringan"
+    },
+    {
+      "fasilitas": "Jalan Akses Utama",
+      "status": "Perlu perbaikan"
+    }
+  ],
+  "pengumuman": [
+    {
+      "judul": "Ronda Malam",
+      "detail": "RT 08 · Sabtu 20:00",
+      "kategori": "Jadwal"
+    },
+    {
+      "judul": "Posyandu Balita",
+      "detail": "Imunisasi & Tumbuh Kembang",
+      "kategori": "Event"
+    },
+    {
+      "judul": "Gotong Royong",
+      "detail": "Perbaikan jalan · Senin 07:00",
+      "kategori": "Partisipasi"
+    }
+  ]
+}

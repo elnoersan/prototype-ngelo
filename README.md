@@ -1,6 +1,5 @@
 Siap 👍 ini langsung aku kasih dalam format **Markdown** biar bisa kamu push ke repo:
 
-```markdown
 # 🌐 Website Profil Padukuhan Ngelo
 
 Proyek ini merupakan bagian dari **Program Kerja KKN UII Angkatan 71 Unit 134**.  
@@ -51,7 +50,7 @@ Website ini masih berupa **prototype statis** dan di-host menggunakan **Vercel**
    ```bash
    git clone https://github.com/username/profil-padukuhan-ngelo.git
    cd profil-padukuhan-ngelo
-````
+
 
 2. Jalankan secara lokal dengan browser:
 

@@ -1,5 +1,3 @@
-Siap 👍 ini langsung aku kasih dalam format **Markdown** biar bisa kamu push ke repo:
-
 # 🌐 Website Profil Padukuhan Ngelo
 
 Proyek ini merupakan bagian dari **Program Kerja KKN UII Angkatan 71 Unit 134**.  
